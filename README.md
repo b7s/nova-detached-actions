@@ -46,7 +46,7 @@ Here's a full example:
 
 namespace App\Nova\Actions;
 
-use b7s\Nova\Tools\DetachedActions\DetachedAction;
+use b7s\Nova\DetachedActions\DetachedAction;
 use Illuminate\Bus\Queueable;
 use Illuminate\Queue\SerializesModels;
 use Illuminate\Queue\InteractsWithQueue;

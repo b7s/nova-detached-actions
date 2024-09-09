@@ -13,13 +13,13 @@
     },
     "autoload": {
         "psr-4": {
-            "b7s\\Nova\\Tools\\DetachedActions\\": "src/"
+            "b7s\\Nova\\DetachedActions\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "b7s\\Nova\\Tools\\DetachedActions\\ToolServiceProvider"
+                "b7s\\Nova\\ToolServiceProvider"
             ]
         }
     },

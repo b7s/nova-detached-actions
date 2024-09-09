@@ -1,6 +1,6 @@
 <?php
 
-namespace b7s\Nova\Tools\DetachedActions;
+namespace b7s\Nova\DetachedActions;
 
 use Laravel\Nova\Nova;
 use Illuminate\Support\Arr;
