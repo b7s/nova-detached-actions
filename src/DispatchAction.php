@@ -1,6 +1,6 @@
 <?php
 
-namespace b7s\Nova\DetachedActions;
+namespace b7s\DetachedActions;
 
 use Laravel\Nova\Actions\DispatchAction as NovaDispatchAction;
 use Laravel\Nova\Nova;

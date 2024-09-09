@@ -1,6 +1,6 @@
 <?php
 
-namespace b7s\Nova\DetachedActions;
+namespace b7s\DetachedActions;
 
 use Laravel\Nova\Nova;
 use Illuminate\Support\ServiceProvider;
