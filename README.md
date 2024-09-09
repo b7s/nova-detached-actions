@@ -1,12 +1,5 @@
 # Laravel Nova Detached Actions Tool
 
-![Status: ABANDONED](https://img.shields.io/badge/Status-ABANDONED-red.svg?style=flat)
-[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/) 
-
-## Deprecation Notice :warning:
-
-> GoBrightspot is no longer maintaining this project. Please fork it to continue development.
-
 ## Intro
 
 A Laravel Nova tool to allow for placing actions in the Nova toolbar, detached from the checkbox selection mechanism.
@@ -53,7 +46,7 @@ Here's a full example:
 
 namespace App\Nova\Actions;
 
-use Brightspot\Nova\Tools\DetachedActions\DetachedAction;
+use b7s\Nova\Tools\DetachedActions\DetachedAction;
 use Illuminate\Bus\Queueable;
 use Illuminate\Queue\SerializesModels;
 use Illuminate\Queue\InteractsWithQueue;

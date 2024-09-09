@@ -1,6 +1,6 @@
 <?php
 
-namespace Brightspot\Nova\Tools\DetachedActions;
+namespace b7s\Nova\Tools\DetachedActions;
 
 use Laravel\Nova\Actions\DispatchAction as NovaDispatchAction;
 use Laravel\Nova\Nova;
@@ -31,7 +31,8 @@ class DispatchAction extends NovaDispatchAction
         $method,
         Collection $models,
         ActionFields $fields
-    ) {
+    ): mixed
+    {
         if ($action instanceof ShouldQueue) {
             return static::queueForModels($request, $action, $method, $models);
         }
